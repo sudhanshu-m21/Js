@@ -1,5 +1,5 @@
 const user = {
-  username: "hitesh",
+  username: "sudhanshu",
   price: 999,
 
   welcomeMessage: function () {
@@ -9,25 +9,25 @@ const user = {
 };
 
 // user.welcomeMessage()
-// user.username = "sam"
+// user.username = "sm"
 // user.welcomeMessage()
 
 // console.log(this);
 
 // function chai(){
-//     let username = "hitesh"
+//     let username = "sudhanshu"
 //     console.log(this.username);
 // }
 
 // chai()
 
 // const chai = function () {
-//     let username = "hitesh"
+//     let username = "sudhanshu"
 //     console.log(this.username);
 // }
 
 const chai = () => {
-  let username = "hitesh";
+  let username = "sudhanshu";
   console.log(this);
 };
 
@@ -41,7 +41,7 @@ const chai = () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({ username: "hitesh" });
+const addTwo = (num1, num2) => ({ username: "sudhanshu" });
 
 console.log(addTwo(3, 4));
 
